@@ -42,13 +42,13 @@ p {
   font-size: 0.875rem;
 }
 
-.old-price {
-  text-decoration: line-through;
-}
-
 button {
   font: inherit;
   font-weight: 700;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 :root {
@@ -70,10 +70,11 @@ button {
   background-color: var(--WHITE);
   border-radius: 0.9375rem;
 }
-.grid__hero {
-  background-image: url("../../images/image-product-mobile.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.grid__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 0.9375rem 0.9375rem 0 0;
 }
 .grid__product {
@@ -117,8 +118,7 @@ button {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
   }
-  .grid__hero {
-    background-image: url("../../images/image-product-desktop.jpg");
+  .grid__img {
     border-radius: 0.9375rem 0 0 0.9375rem;
   }
   .grid__product-description {

@@ -18,11 +18,11 @@ p {
     font-size: u.rem(14);
 }
 
-.old-price {
-    text-decoration: line-through;
-}
-
 button {
     font: inherit;
     font-weight: 700;
+}
+
+.capitalize {
+    text-transform: capitalize;
 }
