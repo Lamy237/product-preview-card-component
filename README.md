@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Product preview card component using SCSS](https://www.frontendmentor.io/solutions/product-preview-card-component-using-scss-dQg63OfZjK)
-- Live Site URL: [precaco](precaco.netlify.app)
+- Live Site URL: [precaco](https://precaco.netlify.app)
 
 ## My process
 
