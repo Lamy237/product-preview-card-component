@@ -1,0 +1,28 @@
+@use '../util' as u;
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+h1,
+.new-price {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(u.rem(28), u.rem(16) + 2vw, u.rem(40));
+}
+
+h1 {
+    line-height: 1.1;
+}
+
+p {
+    line-height: 1.6;
+    font-size: u.rem(14);
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+button {
+    font: inherit;
+    font-weight: 700;
+}

@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--CREAM);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
