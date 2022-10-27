@@ -9,10 +9,10 @@
     background-color: var(--WHITE);
     border-radius: u.rem(15);
 
-    &__hero {
-        background-image: url('../../images/image-product-mobile.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
         border-radius: u.rem(15) u.rem(15) 0 0;
     }
 
@@ -65,8 +65,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
 
-        &__hero {
-            background-image: url('../../images/image-product-desktop.jpg');
+        &__img {
             border-radius: u.rem(15) 0 0 u.rem(15);
         }
 
