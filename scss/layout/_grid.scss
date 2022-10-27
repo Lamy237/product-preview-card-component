@@ -70,13 +70,8 @@
             border-radius: u.rem(15) 0 0 u.rem(15);
         }
 
-        &__product-description,
-        &__pricing .old-price {
-            font-size: u.rem(16);
-        }
-
         &__product-description {
-            width: 90%;
+            width: 80%;
         }
     }
 }

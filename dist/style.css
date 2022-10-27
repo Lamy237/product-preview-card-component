@@ -121,10 +121,7 @@ button {
     background-image: url("../../images/image-product-desktop.jpg");
     border-radius: 0.9375rem 0 0 0.9375rem;
   }
-  .grid__product-description, .grid__pricing .old-price {
-    font-size: 1rem;
-  }
   .grid__product-description {
-    width: 90%;
+    width: 80%;
   }
 }/*# sourceMappingURL=style.css.map */
